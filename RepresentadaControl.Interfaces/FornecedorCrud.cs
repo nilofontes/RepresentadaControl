@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RepresentadaControl.Interfaces
 {
-    public class ClienteCrud : BaseCrud<Cliente>
+    public class FornecedorCrud : BaseCrud<Fornecedor>
     {
     }
 }

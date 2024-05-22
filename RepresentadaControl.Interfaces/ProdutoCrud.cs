@@ -11,7 +11,7 @@ namespace RepresentadaControl.Interfaces
     {
         public override string Create(Produto model)
         {
-            if (model.Price != 0)
+            if (model.Preco != 0)
             {
                 return base.Create(model);
             }

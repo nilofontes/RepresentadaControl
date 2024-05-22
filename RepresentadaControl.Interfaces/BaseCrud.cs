@@ -25,13 +25,14 @@ namespace RepresentadaControl.Interfaces
         {
             List<T> clientes = new List<T>();
             T c1 = Activator.CreateInstance<T>();
-            clientes.Add(c1);
+            clientes.Append<T>(c1);
             return clientes;
         }
 
         public virtual T GetById(int id)
         {
-            T c1 = Activator.CreateInstance<T>();
+            T c1 = Activator.CreateInstance<T>();         
+            
             return c1;
         }
 

@@ -8,11 +8,12 @@ namespace RepresentadaControl.Data
 {
     public class Produto : BaseModel
     {
-        public int IdManufactory { get; set; }
-        public int Code { get; set; }
-        public string ManufactoryCode { get; set; }
-        public string Name { get; set;}
-        public decimal Price { get; set; }
+        public int IdFornecedor { get; set; }
+        public string CodigoFornecedor { get; set; }
+        public string Nome { get; set;}
+        public string Descricao { get; set; }
+        public decimal Preco { get; set; }
+        public bool Ativo {  get; set; }
 
     }
 }
